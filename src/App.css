@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dropzone {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 20px;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
